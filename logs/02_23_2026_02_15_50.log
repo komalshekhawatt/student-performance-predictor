@@ -1,0 +1,14 @@
+[ 2026-02-23 02:15:50,487 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-23 02:15:50,495 ] 97 werkzeug - INFO -  * Debugger PIN: 526-545-311
+[ 2026-02-23 02:16:19,355 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:16:19] "GET / HTTP/1.1" 200 -
+[ 2026-02-23 02:16:19,553 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:16:19] "GET / HTTP/1.1" 200 -
+[ 2026-02-23 02:16:22,323 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:16:22] "GET /login HTTP/1.1" 200 -
+[ 2026-02-23 02:16:38,221 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:16:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2026-02-23 02:16:38,251 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:16:38] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-02-23 02:16:48,529 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:16:48] "GET /login HTTP/1.1" 200 -
+[ 2026-02-23 02:16:50,773 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:16:50] "GET /register HTTP/1.1" 200 -
+[ 2026-02-23 02:17:23,535 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:17:23] "[32mPOST /register HTTP/1.1[0m" 302 -
+[ 2026-02-23 02:17:23,544 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:17:23] "GET /login HTTP/1.1" 200 -
+[ 2026-02-23 02:17:36,654 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:17:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+[ 2026-02-23 02:17:36,659 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:17:36] "GET /predictdata HTTP/1.1" 200 -
+[ 2026-02-23 02:19:15,164 ] 97 werkzeug - INFO -  * Detected change in '/Users/nakul/Desktop/student_performance/app.py', reloading

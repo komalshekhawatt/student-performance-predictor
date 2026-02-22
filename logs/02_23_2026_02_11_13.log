@@ -1,0 +1,5 @@
+[ 2026-02-23 02:11:13,606 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-23 02:11:13,614 ] 97 werkzeug - INFO -  * Debugger PIN: 526-545-311
+[ 2026-02-23 02:12:14,790 ] 45 root - INFO - Received prediction request from frontend.
+[ 2026-02-23 02:12:14,794 ] 74 root - ERROR - Prediction Pipeline Error: Error occurred in python script name [/Users/nakul/Desktop/student_performance/app.py] line number [54] error message [float() argument must be a string or a real number, not 'NoneType']
+[ 2026-02-23 02:12:14,806 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Feb/2026 02:12:14] "HEAD /predictdata HTTP/1.1" 200 -

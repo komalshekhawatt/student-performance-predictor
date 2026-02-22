@@ -1,0 +1,4 @@
+[ 2026-02-23 00:52:17,449 ] 77 root - INFO - Read train and test data completed
+[ 2026-02-23 00:52:17,449 ] 81 root - INFO - Obtaining preprocessing object
+[ 2026-02-23 00:52:17,449 ] 53 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2026-02-23 00:52:17,449 ] 54 root - INFO - Numerical columns: ['writing_score', 'reading_score']

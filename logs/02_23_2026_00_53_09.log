@@ -1,0 +1,12 @@
+[ 2026-02-23 00:53:09,637 ] 23 root - INFO - Entered the data ingestion method or component
+[ 2026-02-23 00:53:09,639 ] 28 root - INFO - Read the dataset as dataframe
+[ 2026-02-23 00:53:09,642 ] 41 root - INFO - Train test split initiated
+[ 2026-02-23 00:53:09,646 ] 49 root - INFO - Ingestion of the data is completed
+[ 2026-02-23 00:53:09,647 ] 77 root - INFO - Read train and test data completed
+[ 2026-02-23 00:53:09,647 ] 81 root - INFO - Obtaining preprocessing object
+[ 2026-02-23 00:53:09,647 ] 53 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2026-02-23 00:53:09,647 ] 54 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2026-02-23 00:53:09,648 ] 95 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2026-02-23 00:53:09,655 ] 108 root - INFO - Saved preprocessing object.
+[ 2026-02-23 00:53:09,656 ] 26 root - INFO - Split training and test input data
+[ 2026-02-23 00:53:09,658 ] 45 root - INFO - Ridge Regression model trained. R2 score on test set: 0.8805917946912825
