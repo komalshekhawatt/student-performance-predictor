@@ -19,7 +19,11 @@
         }
 
         body {
-            background-color: var(--bg-dark);
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('/static/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             color: var(--text-main);
             font-family: 'Outfit', sans-serif;
             display: flex;
@@ -27,16 +31,17 @@
             justify-content: center;
             min-height: 100vh;
             margin: 0;
-            background-image: radial-gradient(circle at top right, rgba(139, 92, 246, 0.15), transparent 40%);
         }
 
         .auth-container {
-            background: var(--glass-bg);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            background: rgba(255, 255, 255, 0.05);
+            /* Slight white tint */
+            backdrop-filter: blur(10px);
+            /* This creates the frosted glass effect */
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             padding: 50px 40px;
             border-radius: 20px;
-            border: 1px solid var(--glass-border);
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
             width: 100%;
             max-width: 400px;
