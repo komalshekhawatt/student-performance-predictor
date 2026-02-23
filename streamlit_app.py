@@ -1,3 +1,8 @@
+import sys
+import os
+# Force the app to look in the current directory for the src package
+sys.path.append(os.path.abspath(os.path.curdir))
+
 import streamlit as st
 import pandas as pd
 from src.pipeline.predict_pipeline import CustomData, PredictPipeline
