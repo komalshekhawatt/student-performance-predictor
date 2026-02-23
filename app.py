@@ -5,8 +5,8 @@ from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 from src.logger import logging
 from src.exception import CustomException
 
-application = Flask(__name__)
-app = application
+app = Flask(__name__)
+application = app
 app.secret_key = "gradeiq_super_secret_key"
 
 # Route for a home page
