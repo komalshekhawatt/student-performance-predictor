@@ -87,4 +87,6 @@ streamlit run streamlit_app.py              # or the Streamlit app
 - No test-prep timing or attendance data.
 
 ## Credits
-Original project structure by Nakul Singh. EDA insights, SQL analysis, model comparison, dashboard and documentation by Komal.
+Built by Komal. The base data pipeline and web app were adapted from an existing open-source project.
+
+My contributions: EDA and insights, SQL analysis, model comparison, feature importance, dashboard and documentation.
